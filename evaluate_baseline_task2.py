@@ -139,11 +139,11 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     #i/o parameters
-    parser.add_argument('--model_path', type=str, default='RESULTS/Task2/checkpoint')
-    parser.add_argument('--results_path', type=str, default='RESULTS/Task2/metrics')
+    parser.add_argument('--model_path', type=str, default='/content/gdrive/MyDrive/project_folder/L3DAS22/RESULTS/Task2/checkpoint')
+    parser.add_argument('--results_path', type=str, default='/content/gdrive/MyDrive/project_folder/L3DAS22/RESULTS/Task2/metrics')
     #dataset parameters
-    parser.add_argument('--predictors_path', type=str, default='DATASETS/processed/task2_predictors_test.pkl')
-    parser.add_argument('--target_path', type=str, default='DATASETS/processed/task2_target_test.pkl')
+    parser.add_argument('--predictors_path', type=str, default='/content/gdrive/MyDrive/project_folder/L3DAS22/DATASETS/processed/task2_predictors_test.pkl')
+    parser.add_argument('--target_path', type=str, default='/content/gdrive/MyDrive/project_folder/L3DAS22/DATASETS/processed/task2_target_test.pkl')
     parser.add_argument('--sr', type=int, default=32000)
     #eval parameters
     parser.add_argument('--max_loc_value', type=float, default=2,
