@@ -299,7 +299,7 @@ if __name__ == '__main__':
                         help='task to be pre-processed')
     parser.add_argument('--input_path', type=str, default='DATASETS/Task1',
                         help='directory where the dataset has been downloaded')
-    parser.add_argument('--output_path', type=str, default='DATASETS/processed',
+    parser.add_argument('--output_path', type=str, default='/content/gdrive/MyDrive/project_folder/L3DAS22/DATASETS/processed',
                         help='where to save the numpy matrices')
     #processing type
     parser.add_argument('--train_val_split', type=float, default=0.7,
